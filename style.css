@@ -1,0 +1,30 @@
+﻿* {font-family:san-serif;color:white}
+body {margin:50px 0px; padding:0px;	text-align:center; background-image:url("Image/pozad.jpg")}	       
+#hlavni {width:1000px;margin:7% auto;text-align:left;height:550px;background:black;border-radius:10;box-shadow: rgb(23,73,143) 0px 0px 20px;}
+#hldole {position:absolute;width:1000px;height:50px;margin-left:0px;margin-top:510px;background:black url("Image/prechod.png") repeat-x bottom ;border-radius:10;}  
+#menu {position:absolute;width:160px;height:495px;margin-left:10px;}
+#obsah {overflow:auto;position:absolute;width:520px;height:495px;margin-left:440px;border-radius:10;padding:20px}
+#nad-obsah {position:absolute;;width:250px;height:684px;background:black;margin:-80px 0 0 179px;border-radius:10;box-shadow: rgb(23,73,143) 0px 0px 10px;}
+#copy {position:absolute;width:230px;height:25px;margin:565px 0 0 188px;background:black;border-radius:10}
+.text_nad-obsah {color:white;margin:80px 0 0 10px;}
+.text_menu {text-align:center}
+#text {text-align:justify}
+#logo {position:absolute;width:246px;height:75px;background-image:url("Image/dk.png");margin:2px 2px 0 2px;background-repeat:no-repeat}
+#menu_nahore {position:absolute;width:370px;height:50px;margin-left:500px;margin-top:-50px;background:url("Image/pozadi_horni_menu.png");border-radius:10}
+#menu_nahore ul {margin-left:-25px;margin-top:0}
+#menu_nahore li {display:inline-block;}
+#menu_nahore a {display:inline-block;font-size:1.1em;padding:14.5px;text-decoration:none;color:white;text-align:center}
+#menu_nahore a:hover {background:black}
+#menu li {display:block;margin-left:-32px;width:140px;border:1px solid white;border-top:none}
+#menu ul a {display:block;width:140px;padding:5px 0 5px 0;text-align:center;background:#012D58;text-decoration:none}
+#menu ul a:hover {background:black;}
+h1 {;font-weight:bold}
+#cenik td {border: 2px solid blue; border-spacing: 3px 6px; color: white}
+input {color:black;}
+#obr_eshopy {width:100px;border:1px solid red;box-shadow:red 0px 0px 5px;margin:4px;padding:2px}
+#t_pocitadlo {margin-top:10px}
+#nadpis_poc {font-weight:bold}
+#hodnota_poc {font-style:italic}
+#kontakt_formular td input{width:200px;}
+#kontakt_formular td textarea{width:404px;height:210px}
+#galerie {position:absolute;margin-left:1px;margin-top:0;width:250px;height:600px}
