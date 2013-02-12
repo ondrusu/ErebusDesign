@@ -73,18 +73,18 @@ class Kontakt
  public function odeslat_mail()
  {
   $mail = new PHPMailer();
-  $mail->IsSMTP();  // k odeslání e-mailu použijeme SMTP server
+  $mail->IsSMTP();
   $mail->IsHTML(true);
-  $mail->Host = "ssl://smtp.gmail.com";  // zadáme adresu SMTP serveru
-  $mail->SMTPAuth = true;               // nastavíme true v případě, že server vyžaduje SMTP autentizaci
+  $mail->Host = "ssl://smtp.gmail.com";
+  $mail->SMTPAuth = true;
   $mail->Port = 465;
-  $mail->Username = "hubert.janota@educanet.cz";   // uživatelské jméno pro SMTP autentizaci
-  $mail->Password = "Speedy";            // heslo pro SMTP autentizaci
-  $mail->From = "thorx.cz";   // adresa odesílatele skriptu
-  $mail->FromName = "info-kontakt"; // jméno odesílatele skriptu (zobrazí se vedle adresy odesílatele)
-  $mail->AddAddress("hubert.janota@educanet.cz");  // přidáme příjemce
-  $mail->AddAddress("ondrej.cepec@educanet.cz");  // přidáme příjemce
-  $mail->Subject = "Thorx-dotaz";    // nastavíme předmět e-mailu
+  $mail->Username = "hubert.janota@educanet.cz"; 
+  $mail->Password = "Speedy";
+  $mail->From = "thorx.cz"; 
+  $mail->FromName = "info-kontakt";
+  $mail->AddAddress("hubert.janota@educanet.cz"); 
+  $mail->AddAddress("ondrej.cepec@educanet.cz"); 
+  $mail->Subject = "Thorx-dotaz"; 
   $mail->Body = " 
   <h1> Dotaz ze serveru thorx.cz </h1>
   Jméno: ".$_POST["name"]."<br />
